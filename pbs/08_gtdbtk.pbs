@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N WGS_08_GTDBtk
+#PBS -l select=1:ncpus=40:mem=512gb,walltime=72:00:00
+#PBS -q bigmem
+#PBS -j oe
+#PBS -m abe
+#PBS -M your_email@clemson.edu
+
+# NANOPORE: No changes needed for this PBS script.
+# GTDBtk classifies genome files — platform-agnostic.
+# Better Nanopore contiguity can actually improve marker gene detection.
+
+cd /home/<your_username>/WGS-Pipeline
+bash scripts/08_gtdbtk.sh

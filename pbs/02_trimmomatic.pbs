@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N WGS_02_Trimmomatic
+#PBS -l select=1:ncpus=16:mem=64gb,walltime=8:00:00
+#PBS -q bigmem
+#PBS -j oe
+#PBS -m abe
+#PBS -M your_email@clemson.edu
+
+cd /home/<your_username>/WGS-Pipeline
+bash scripts/02_trimmomatic.sh

@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N WGS_01_FastQC
+#PBS -l select=1:ncpus=8:mem=32gb,walltime=4:00:00
+#PBS -q bigmem
+#PBS -j oe
+#PBS -m abe
+#PBS -M your_email@clemson.edu
+
+cd /home/<your_username>/WGS-Pipeline
+bash scripts/01_fastqc.sh

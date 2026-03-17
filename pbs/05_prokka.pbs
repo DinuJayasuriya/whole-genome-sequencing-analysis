@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N WGS_05_Prokka
+#PBS -l select=1:ncpus=16:mem=128gb,walltime=12:00:00
+#PBS -q bigmem
+#PBS -j oe
+#PBS -m abe
+#PBS -M your_email@clemson.edu
+
+cd /home/<your_username>/WGS-Pipeline
+bash scripts/05_prokka.sh

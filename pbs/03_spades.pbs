@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N WGS_03_SPAdes
+#PBS -l select=1:ncpus=32:mem=750gb,walltime=48:00:00
+#PBS -q bigmem
+#PBS -j oe
+#PBS -m abe
+#PBS -M your_email@clemson.edu
+
+# NANOPORE: Replace this PBS script with 03_flye.pbs (see docs/nanopore_changes.md)
+# Flye requires similar or more memory; add ngpus=1 if running Medaka after.
+
+cd /home/<your_username>/WGS-Pipeline
+bash scripts/03_spades.sh

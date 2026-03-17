@@ -21,8 +21,6 @@ Complete **whole genome sequencing analysis pipeline** covering quality control 
 
 > 🔵 **Nanopore users:** Tool substitutions are noted at each step — see [`docs/nanopore_changes.md`](docs/nanopore_changes.md)
 
-> 🟠 **Palmetto users:** Cluster-specific setup, queue names, and module loading — see [`docs/palmetto_guide.md`](docs/palmetto_guide.md)
-
 ---
 
 ## 🔬 Pipeline Overview

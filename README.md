@@ -19,7 +19,7 @@ Complete **whole genome sequencing analysis pipeline** covering quality control 
 | **Annotation** | Prokka · DRAM · METABOLIC |
 | **Downstream** | GTDBtk · BPGA · ANI · DDH |
 
-> 🔵 **Nanopore users:** Tool substitutions are noted at each step — see [`docs/nanopore_changes.md`](docs/nanopore_changes.md)
+> 🔵 **Nanopore users:** Tool substitutions are noted at each step — see [`docs/nanopore_changes.md`](doc/nanopore_changes.md)
 
 ---
 

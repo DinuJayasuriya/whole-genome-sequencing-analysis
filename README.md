@@ -45,7 +45,7 @@ Raw Paired-End Reads (FASTQ)
   08_gtdbtk.sh              — Phylogenetic classification (GTDBtk)
 ```
 
-> 📁 See the [`/scripts`](./scripts) folder for all runnable code
+> 📁 See the [`/scripts`](./script) folder for all runnable code
 
 ---
 
